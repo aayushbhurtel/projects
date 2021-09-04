@@ -20,7 +20,7 @@ api = tw.API(auth, wait_on_rate_limit=True)
 
 # open weather api
 key = '<key>'
-url = 'https://api.openweathermap.org/data/2.5/onecall?lat='+ str(33.91) + '&lon=' + str(-98.49) + '&appid=' + key + '&units=imperial'
+url = 'https://api.openweathermap.org/data/2.5/onecall?lat='+ str(latitude) + '&lon=' + str(longitude) + '&appid=' + key + '&units=imperial'
 
 # get a response and update data variable
 response = urlopen(url)
