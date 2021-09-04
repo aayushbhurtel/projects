@@ -6,4 +6,4 @@
 #### - signup for twitter api ####
 #### - open terminal and nevigate to current directory ####
 #### - run following commands ####
-##### python3 bot.py #####
+        python3 bot.py 
